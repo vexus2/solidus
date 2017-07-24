@@ -44,6 +44,7 @@ group :test, :development do
     gem 'pry-byebug'
   end
 end
+gem 'highline'
 RUBY
 
 bundle install --gemfile Gemfile
